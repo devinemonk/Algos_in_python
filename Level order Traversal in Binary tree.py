@@ -63,6 +63,6 @@ if __name__=="__main__":
         s=input()
         root=buildTree(s)
         println(root)
-        x=InOrder(root)
+        x=levelOrder(root)
         for i in x:
           print(i,end=" ")
